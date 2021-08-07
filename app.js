@@ -26,6 +26,8 @@ const addUser = () => {
   );
   const element = createElement('li', outputText, 'user-item');
   userList.appendChild(element);
+
+  console.log(outputText);
 };
 
 // Start the app!
